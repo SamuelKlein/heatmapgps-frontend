@@ -205,7 +205,7 @@ angular.module('starter.controllers', ['starter.services', 'starter.factories'])
         watch = MapFactory.phonePosition(function(position){
             try{
                 var pinIcon = new google.maps.MarkerImage(
-                    ApiEndpoint.url + "/img/car-pol.png",
+                    ApiEndpoint.url + "/rest/ocorrencias/carPolImg",
                     null, /* size is determined at runtime */
                     null, /* origin is 0,0 */
                     null, /* anchor is bottom center of the scaled image */
